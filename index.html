@@ -11,7 +11,30 @@
     <!-- The Asthetics -->
     <link rel="icon" href="/images/icon.jpg">
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/style.css">
+
+    <style>
+        #video-background {
+            z-index: -100;
+            position: fixed;
+            right: 0;
+            bottom: 0;
+            min-width: 100%;
+            min-height: 100%;
+
+            object-fit: cover !important;
+            height: 100%;
+            width: 100%;
+            box-sizing: border-box;
+        }
+
+        #middle {
+            vertical-align: middle;
+        }
+
+        h1 {
+            color: white;
+        }
+    </style>
 
     <!-- Page title & description -->
     <title>TTTTT | And Do You Love Her?</title>
@@ -36,9 +59,9 @@
     <meta name="twitter:image" content="/images/background.png">
 </head>
 
-<body id="body" style="display: none;">
-    <div class="middle"><video id="video-background" title="" poster="/images/background.png" playsinline muted loop
-            autoplay preload>
+<body id="body">
+    <div class="middle"><video id="video-background" title="" poster="/images/background.png"
+            playsinline muted loop autoplay preload data-setup="{}">
             <source src="videos/video.mp4" type="video/mp4"> Your browser does not support HTML5 video.</video>
     </div>
     <div class="container">
