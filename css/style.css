@@ -1,0 +1,90 @@
+@font-face {
+    font-family: Hessley;
+    src: url("fonts/HessleyAndreasRegular.woff") format("woff"), url("fonts/HessleyAndreasRegular.ttf") format("truetype");
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+#video-background {
+    z-index: -100;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+
+    object-fit: cover !important;
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#middle {
+    vertical-align: middle;
+}
+
+#vh-center {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+h1 {
+    color: white;
+}
+
+#vh-center h1 {
+    font-family: Hessley;
+    font-size: 14vh;
+    color: white;
+    mix-blend-mode: darken;
+}
+
+.logo {
+    width: auto;
+    height: 2rem;
+    filter: invert(1);
+}
+
+.logo-container {
+    margin: 1rem;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 420px) {
+    .logo {
+        width: auto;
+        height: 1.5rem;
+        filter: invert(1);
+    }
+}
+
+article {
+    min-height: 100%;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    grid-template-columns: 100%;
+}
+
+header {
+    padding-top: 1rem;
+}
+
+main {
+    padding: 1rem;
+}
+
+footer {
+    padding-bottom: 1rem;
+}
+
+header h1 {
+    font-family: Hessley;
+    font-size: 7vh;
+    color: #f8f8f2;
+}

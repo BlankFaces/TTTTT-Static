@@ -8,102 +8,28 @@
     <meta http-equiv="content-type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
+    <!-- Icon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="icons/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="icons/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="icons/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="icons/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="icons/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="icons/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="icons/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="icons/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="icons/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="icons/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="icons/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="icons/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="icons/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
     <!-- The Asthetics -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
-
-    <style>
-        @font-face {
-            font-family: Hessley;
-            src: url("fonts/HessleyAndreasRegular.woff") format("woff"), url("fonts/HessleyAndreasRegular.ttf") format("truetype");
-        }
-
-        html,
-        body {
-            width: 100%;
-            height: 100%;
-            text-align: center;
-        }
-
-        #video-background {
-            z-index: -100;
-            position: fixed;
-            right: 0;
-            bottom: 0;
-            min-width: 100%;
-            min-height: 100%;
-
-            object-fit: cover !important;
-            height: 100%;
-            width: 100%;
-            box-sizing: border-box;
-        }
-
-        #middle {
-            vertical-align: middle;
-        }
-
-        #vh-center {
-            position: relative;
-            top: 50%;
-            transform: translateY(-50%);
-        }
-
-        h1 {
-            color: white;
-        }
-
-        #vh-center h1 {
-            font-family: Hessley;
-            font-size: 14vh;
-            color: white;
-            mix-blend-mode: darken;
-        }
-
-        .logo {
-            width: auto;
-            height: 2rem;
-            filter: invert(1);
-        }
-
-        .logo-container {
-            margin: 1rem;
-            cursor: pointer;
-        }
-
-        @media only screen and (max-width: 420px) {
-            .logo {
-                width: auto;
-                height: 1.5rem;
-                filter: invert(1);
-            }
-        }
-
-        article {
-            min-height: 100%;
-            display: grid;
-            grid-template-rows: auto 1fr auto;
-            grid-template-columns: 100%;
-        }
-
-        header {
-            padding-top: 1rem;
-        }
-
-        main {
-            padding: 1rem;
-        }
-
-        footer {
-            padding-bottom: 1rem;
-        }
-
-        header h1 {
-            font-family: Hessley;
-            font-size: 7vh;
-            color: #f8f8f2;
-
-        }
-    </style>
+    <link rel="stylesheet" href="css/style.css">
 
     <!-- Page title & description -->
     <title>TTTTT | And Do You Love Her?</title>
@@ -126,25 +52,6 @@
     <meta name="twitter:title" content="TTTTT">
     <meta name="twitter:description" content="And Do You Love Her?">
     <meta name="twitter:image" content="images/background.jpg">
-
-    <!-- Icon -->
-    <link rel="apple-touch-icon" sizes="57x57" href="icons/apple-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="icons/apple-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="icons/apple-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="icons/apple-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="icons/apple-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="icons/apple-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="icons/apple-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="icons/apple-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="icons/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192" href="icons/android-icon-192x192.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="icons/favicon-96x96.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="icons/favicon-16x16.png">
-    <link rel="manifest" href="/manifest.json">
-    <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="icons/ms-icon-144x144.png">
-    <meta name="theme-color" content="#ffffff">
 </head>
 
 <body id="body">
@@ -154,7 +61,6 @@
     </div>
 
     <article>
-
         <!-- Title -->
         <header>
             <h1>T</h1>
@@ -216,7 +122,6 @@
                         d="M23.954 4.569c-.885.389-1.83.654-2.825.775 1.014-.611 1.794-1.574 2.163-2.723-.951.555-2.005.959-3.127 1.184-.896-.959-2.173-1.559-3.591-1.559-2.717 0-4.92 2.203-4.92 4.917 0 .39.045.765.127 1.124C7.691 8.094 4.066 6.13 1.64 3.161c-.427.722-.666 1.561-.666 2.475 0 1.71.87 3.213 2.188 4.096-.807-.026-1.566-.248-2.228-.616v.061c0 2.385 1.693 4.374 3.946 4.827-.413.111-.849.171-1.296.171-.314 0-.615-.03-.916-.086.631 1.953 2.445 3.377 4.604 3.417-1.68 1.319-3.809 2.105-6.102 2.105-.39 0-.779-.023-1.17-.067 2.189 1.394 4.768 2.209 7.557 2.209 9.054 0 13.999-7.496 13.999-13.986 0-.209 0-.42-.015-.63.961-.689 1.8-1.56 2.46-2.548l-.047-.02z" />
                 </svg>
             </a>
-
         </footer>
     </article>
 
