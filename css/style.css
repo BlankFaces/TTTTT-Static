@@ -34,14 +34,6 @@ body {
     transform: translateY(-50%);
 }
 
-#vh-center a {
-    text-decoration: none;
-}
-
-#vh-center a:hover {
-    text-decoration: none;
-}
-
 h1 {
     color: white;
 }
