@@ -36,10 +36,12 @@ body {
 
 #vh-center a {
     text-decoration: none;
+    -webkit-text-decoration: none;
 }
 
 #vh-center a:hover {
     text-decoration: none;
+    -webkit-text-decoration: none;
 }
 
 h1 {
